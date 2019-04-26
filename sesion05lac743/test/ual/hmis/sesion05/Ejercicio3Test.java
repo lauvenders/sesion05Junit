@@ -11,7 +11,7 @@ public class Ejercicio3Test {
 				"2, *****",
 				"7, *******",
 				"34, ************"})
-	void testTransformar(int n, String resultado) {
+	void testAsteriscos(int n, String resultado) {
 		Ejercicio3 c = new Ejercicio3();
 		assertEquals(resultado, c.asteriscos(n));
 	}

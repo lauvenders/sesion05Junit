@@ -10,7 +10,7 @@ public class Ejercicio4Test {
 	@CsvSource({
 			"casa, no, ''", 
 			"oso, coco, oo"})
-	void testTransformar(String p1, String p2, String res) {
+	void testComparar(String p1, String p2, String res) {
 		Ejercicio4 c = new Ejercicio4();
 		assertEquals(res, c.comparar(p1, p2));
 	}

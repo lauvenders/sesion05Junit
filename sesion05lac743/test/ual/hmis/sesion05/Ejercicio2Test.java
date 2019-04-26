@@ -14,7 +14,7 @@ public class Ejercicio2Test {
 			"usuario, pass, false",
 			"user, password, false",
 			"user, pass, true"})
-	void testTransformar(String username, String password, boolean b) {
+	void testLogin(String username, String password, boolean b) {
 		Ejercicio2 c = new Ejercicio2();
 		assertEquals(b, c.login(username, password));
 	}
